@@ -1,10 +1,3 @@
-
-
-
-
- 17 ¬
-
-
 " Make Vim more useful¬
 set nocompatible¬
 filetype off¬
@@ -13,22 +6,22 @@ set rtp+=~/.vim/bundle/Vundle.vim¬
 call vundle#begin()¬
 " alternatively, pass a path where Vundle should install plugins¬
 "call vundle#begin('~/some/path/here')¬
-¬
+
 " let Vundle manage Vundle, required¬
 Plugin 'VundleVim/Vundle.im'¬
-¬
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim¬
 " PLUGINGS GO HERE!!!!!!!!!!!!!!!!!!!!!!!!¬
 "¬
 Plugin 'bling/vim-airline'¬
-¬
-¬
+
+
 " All of your Plugins must be added before the following line¬
 call vundle#end()            " required¬
 filetype plugin indent on    " required¬
 " To ignore plugin indent changes, instead use:¬
 "filetype plugin on¬
-"¬
+"
 " Brief help¬
 " :PluginList       - lists configured plugins¬
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate¬
@@ -37,8 +30,8 @@ filetype plugin indent on    " required¬
 "¬
 " see :h vundle for more details or wiki for FAQ¬
 " Put your non-Plugin stuff after this line¬
-¬
-¬
+
+
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)¬
 " Set color scheme!¬¬
 colorscheme  vividchalk·¬
@@ -66,11 +59,8 @@ set directory=~/.vim/swaps¬
 if exists("&undodir")¬
         set undodir=~/.vim/undo¬
 endif¬
-¬
+
 set viminfo+=! " make sure vim history works¬
 map <C-J> <C-W>j<C-W>_ " open and maximize the split below¬
 map <C-K> <C-W>k<C-W>_ " open and maximize the split above¬
 set wmh=0 " reduces splits to a single line·¬
-¬
- NORMAL >> .vimrc                 < vim <<   0% :   1:  1  < ! trailing[37]
-"~/.vimrc" 132L, 3713C
